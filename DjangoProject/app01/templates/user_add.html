@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户添加</title>
+</head>
+<body>
+<h1>用户添加</h1>
+<form method="post" action="/user_add/">
+    {% csrf_token %}
+    <input type="text" name="user" placeholder="姓名">
+    <input type="password" name="pwd" placeholder="密码">
+    <input type="password" name="age" placeholder="年龄">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
