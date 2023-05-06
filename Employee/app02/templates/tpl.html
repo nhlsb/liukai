@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>模板语法的学习</h1>
+<h5>打印n1相关的值</h5>
+
+    <div>{{ n1 }}</div>
+
+<hr/>
+<hr/>
+
+<h5>打印n2相关的值</h5>
+
+    <div>{{ n2 }}</div>
+<hr/>
+    <div>{{ n2.0 }}</div>
+    <div>{{ n2.1 }}</div>
+    <div>{{ n2.2 }}</div>
+<hr/>
+    <div>
+        {% for i in n2 %}
+            <span>{{ i }}</span>
+        {% endfor %}
+    </div>
+
+<hr/>
+<hr/>
+<h5>打印n3相关的值</h5>
+
+    <div>{{ n3 }}</div>
+<hr/>
+    <div>{{ n3.name }}</div>
+    <div>{{ n3.age }}</div>
+    <div>{{ n3.role }}</div>
+<hr/>
+    <div>
+        {% for i in n3.values %}
+            <li>{{ i }}</li>
+        {% endfor %}
+    </div>
+<hr/>
+    <div>
+        {% for i,j in n3.items %}
+            <li>{{ i }} = {{ j }}</li>
+        {% endfor %}
+    </div>
+
+<hr/>
+<hr/>
+<h5>打印n4相关的值</h5>
+
+    <div>{{ n4.0 }}</div>
+    <div>{{ n4.1 }}</div>
+    <div>{{ n4.2 }}</div>
+<hr/>
+    <div>{{ n4.0.name }}</div>
+    <div>{{ n4.0.age }}</div>
+    <div>{{ n4.0.role }}</div>
+<hr/>
+    <div>
+        {% for i in n4 %}
+            <li>{{ i.name }} = {{ i.age }}</li>
+        {% endfor %}
+    </div>
+
+<hr/>
+<hr/>
+<h5>判断语句的尝试</h5>
+    <div>
+        {% if n1 == "liukai" %}
+            <h5>11111</h5>
+        {% elif n1 == "tom" %}
+            <h5>22222</h5>
+        {% else %}
+            <h5>33333</h5>
+        {% endif %}
+    </div>
+
+<hr/>
+<hr/>
+
+</body>
+</html>
