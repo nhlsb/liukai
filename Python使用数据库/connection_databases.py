@@ -28,3 +28,5 @@ for i in list_3:
     cur.execute(sql)    # 使用游标对象添加数据到数据库中
 
 con.close()
+
+
