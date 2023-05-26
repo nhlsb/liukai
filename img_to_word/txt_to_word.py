@@ -29,3 +29,5 @@ txt_folder = "D:/img_to_word"
 output_file = "D:/img_to_word/txt_to_word.docx"
 
 merge_txt_to_word(txt_folder, output_file)
+
+
