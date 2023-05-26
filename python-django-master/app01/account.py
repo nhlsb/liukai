@@ -105,14 +105,3 @@ def image_code(request):
     return HttpResponse(stream.getvalue())
 
 
-
-
-
-
-
-
-
-
-
-
-
