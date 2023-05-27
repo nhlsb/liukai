@@ -8,3 +8,5 @@ classname = filename.split('\\')[-1].split('.')[0]
 classpath = filename.split(classname)[0]
 os.system(f"java -cp {classpath} {classname}")
 input("键入Enter退出...")
+
+
