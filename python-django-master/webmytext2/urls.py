@@ -57,3 +57,5 @@ urlpatterns = [
     path('logout/', account.logout),
     path('image_code/', account.image_code),
 ]
+
+
