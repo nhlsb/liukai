@@ -148,14 +148,3 @@ def admin_reset(request,nid):
     return render(request,'admin_reset.html',{'form':form})
 
 
-
-
-
-
-
-
-
-
-
-
-
