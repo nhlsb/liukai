@@ -33,3 +33,5 @@ bar.add_yaxis("销售额",list(dictall.values()),label_opts = LabelOpts(is_show 
 bar.set_global_opts(title_opts = TitleOpts())
  
 bar.render("每日销售柱状图.html")
+
+
