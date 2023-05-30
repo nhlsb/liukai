@@ -34,5 +34,6 @@ print(num3)
 rdd4 = sc.parallelize([1,2,3,4,5],1)
 rdd4.saveAsTextFile("D:/Python学习/pyspark/output")
 
-
 sc.stop()
+
+
