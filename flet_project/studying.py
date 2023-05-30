@@ -98,3 +98,5 @@ def study9(page: ft.Page):
     )
 
 ft.app(target=study9)
+
+
