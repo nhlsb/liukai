@@ -96,7 +96,6 @@ def study9(page: ft.Page):
         ft.ElevatedButton("Say hello!", on_click=btn_click),
         ft.Column(ref=greetings)
     )
-
 ft.app(target=study9)
 
 
