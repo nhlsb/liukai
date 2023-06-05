@@ -1,5 +1,6 @@
 import sys
 import os
+## 调用Java解释器对Java文件进行编译和运行
 filename = sys.argv[1]
 print(filename)
 if filename.split('.')[-1] == 'java':
