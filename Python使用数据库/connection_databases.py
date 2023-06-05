@@ -2,7 +2,6 @@
 from pymysql import Connection
 from data_define import Record
 from file_read import TextFileRead,JsonFileRead
-
 con = Connection(
     host = "localhost",
     port = 3306,
