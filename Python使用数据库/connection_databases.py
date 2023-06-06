@@ -24,7 +24,7 @@ cur = con.cursor()  # 创建一个游标对象
 for i in list_3:
     sql = f"insert into orders(order_data,order_id,money,province) values('{i.data}','{i.order_id}',{i.money},'{i.province}')"
     ## print(sql)
-    cur.execute(sql)    # 使用游标对象添加数据到数据库中
+    cur.execute(sql)   # 使用游标对象添加数据到数据库中
 
 con.close()
 
