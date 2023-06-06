@@ -31,3 +31,6 @@ with open("re_read_data.txt","w") as f:
         f.write(mix)
             
     con.close()
+
+    
+    
