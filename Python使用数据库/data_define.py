@@ -5,5 +5,9 @@ class Record:
         self.order_id = order_id    ##编号
         self.money = int(money)     ##金额
         self.province = province    ##省份
+    ## 魔术方法
     def __str__(self):
         return f"{self.data},{self.order_id},{self.money},{self.province}"
+
+    
+    
