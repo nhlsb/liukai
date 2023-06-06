@@ -3,7 +3,6 @@ from data_define import Record
 import json
 class FileRead: ## 顶层设计，即抽象类
     def read_data(self) -> list[Record]:
-
         pass
 
 class TextFileRead(FileRead):  ##创建子类，继承FileRead类
@@ -51,4 +50,6 @@ if __name__ == '__main__':
     print("..................................")
     for i in list_2:
         print(i)
+    
+
     
