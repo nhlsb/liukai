@@ -1,5 +1,6 @@
 ## 一个类只有一个实例对象
 class Clone:
+    
     pass
 clone = Clone()
 clone1 = Clone()
