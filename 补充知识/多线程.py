@@ -48,3 +48,5 @@ xiancheng1 = threading.Thread(target=sing,args=("我会唱歌",))
 xiancheng2 = threading.Thread(target=dance,kwargs={"arr2":"我会跳舞"})
 xiancheng1.start()
 xiancheng2.start()
+
+
