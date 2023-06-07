@@ -7,3 +7,6 @@ class Record:
         self.province = province    ##省份
     def __str__(self):
         return f"{self.data},{self.order_id},{self.money},{self.province}"
+
+    
+    
