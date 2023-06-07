@@ -31,7 +31,6 @@ bar = Bar(init_opts = InitOpts(theme = ThemeType.LIGHT))
 bar.add_xaxis(list(dictall.keys()))
 bar.add_yaxis("销售额",list(dictall.values()),label_opts = LabelOpts(is_show = False))
 bar.set_global_opts(title_opts = TitleOpts())
- 
 bar.render("每日销售柱状图.html")
 
 
