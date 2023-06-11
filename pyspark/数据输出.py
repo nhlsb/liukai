@@ -26,6 +26,7 @@ print(num2)
 ## (4):count()方法的作用是计算RDD数据集中有多少个数据，返回值是一个数字
 rdd3 = sc.parallelize([1,2,3,4,5])
 num3 = rdd3.count()
+
 print(num3)
 ## 输出结果为:5
 
