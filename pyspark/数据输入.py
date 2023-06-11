@@ -29,3 +29,5 @@ rdd6 = sc.textFile("D:/Python学习/Python使用数据库/2011年1月销售数�
 print(rdd6.collect())
 
 sc.stop()
+
+
