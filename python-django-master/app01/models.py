@@ -78,8 +78,3 @@ class Order(models.Model):
 
 
 
-
-
-
-
-
