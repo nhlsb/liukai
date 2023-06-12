@@ -13,20 +13,3 @@ def upload_list(request):
     return HttpResponse('.......')
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
