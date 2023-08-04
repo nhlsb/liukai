@@ -1,7 +1,7 @@
 # liukai
 # 该存储库用于记录本人学习python的全过程，内容包括基础语法，趣味脚本，系统项目。
 # 在这里主要介绍DjangoProject项目。
-# 该项目为仿真联通公司用户管理系统，使用经典MVC架构进行完整系统的开发，该项目更偏向于后端开发。
+# 该项目为仿真联通公司用户管理系统，使用经典MTV架构进行完整系统的开发，该项目更偏向于后端开发。
 # 以下是它的主要功能和界面展示：
 ![login](https://github.com/nhlsb/liukai/assets/116778824/f5dca3d5-f5bd-4ddc-92f0-3efdc0872623)
 ![管理员账户](https://github.com/nhlsb/liukai/assets/116778824/351a17c2-5d79-431c-885d-447edefce30a)
